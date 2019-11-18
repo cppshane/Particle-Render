@@ -1,0 +1,21 @@
+{
+  "name": "particle-render",
+  "version": "0.0.1",
+  "description": "This package makes it easy to setup simulations on particles with dynamic physics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development --config webpack.config.js",
+    "build-prod": "webpack --mode production --config webpack.config.js"
+  },
+  "author": "Shane Duffy",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "three": "^0.110.0",
+    "three-orbitcontrols": "^2.108.1"
+  }
+}
